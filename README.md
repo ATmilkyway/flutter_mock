@@ -1,19 +1,28 @@
-# flutter_mock
+## Flutter Widget Mock :)
 
-A new Flutter project created with FlutLab - https://flutlab.io
+### Scaffold  
+Provides the basic structure for a screen — including background color, app bars, and body layout.
 
-## Getting Started
+### Container  
+A versatile widget used for layout and styling.  
+Common properties:
+- `height` & `width` → define size  
+- `alignment` → positions child widgets inside  
+- `decoration` → adds color, border, radius, and shadows  
+- `child` → places another widget inside (e.g., `Text`, `Icon`, etc.)
 
-A few resources to get you started if this is your first Flutter project:
+### BoxDecoration  
+Used inside a `Container` to apply visual effects such as:
+- `color` → background color  
+- `borderRadius` → round corners  
+- `border` → add outlines  
+- `boxShadow` → create depth or neumorphic effects  
 
-- https://flutter.dev/docs/get-started/codelab
-- https://flutter.dev/docs/cookbook
+### Column  
+Arranges widgets vertically.  
+Important properties:
+- `mainAxisAlignment` → controls vertical spacing/alignment  
+- `crossAxisAlignment` → controls horizontal positioning  
 
-For help getting started with Flutter, view our
-https://flutter.dev/docs, which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
-## Getting Started: FlutLab - Flutter Online IDE
-
-- How to use FlutLab? Please, view our https://flutlab.io/docs
-- Join the discussion and conversation on https://flutlab.io/residents
+### Center  
+Centers its child both vertically and horizontally within its parent.
