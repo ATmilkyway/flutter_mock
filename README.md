@@ -26,3 +26,17 @@ Important properties:
 
 ### Center  
 Centers its child both vertically and horizontally within its parent.
+
+--
+
+## Expanded Widget Overview
+
+The `Expanded` widget in Flutter allows a child of a `Row`, `Column`, or `Flex` to **take up the available space** proportionally.  
+
+Key points:
+- **flex** → determines how much of the available space this child takes relative to others. Default is `1`.
+- Must be a child of `Row`, `Column`, or `Flex`.
+- Useful for creating responsive layouts where widgets **stretch to fill space**.
+- Can wrap any widget, commonly `Container`, `Text`, or `Card`.
+- Multiple `Expanded` widgets in the same parent divide the space according to their `flex` values.
+

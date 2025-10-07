@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_mock/pages/home_page.dart';
+import 'package:flutter_mock/pages/container_page.dart';
+import 'package:flutter_mock/pages/expand_page.dart';
 
 void main() => runApp(MyApp());
 
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const HomePage(),
+      home: const ExpandPage(),
     );
   }
 }
